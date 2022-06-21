@@ -7,13 +7,13 @@ You can encode, decode and hash with sha 256 by this package. You can use this a
 Use the package manager [npm](https://pip.pypa.io/en/stable/) to install morse-convert.
 
 ```bash
-npm i @litfin88/morse-convert
+npm i morse-convert
 ```
 
 ## Usage
 
 ```javascript
-const morse = require("@litfin88/morse-convert");
+const morse = require("morse-convert");
 
 console.log(morse.valueToMorse("test message", String, false));
 // Converting text to morse alphabet with string type.
@@ -44,3 +44,6 @@ console.log(morse.morseToValue("- . ... -   -- . ... ... .- --. .", Array, true)
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
