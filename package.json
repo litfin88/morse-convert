@@ -1,0 +1,28 @@
+{
+  "name": "@litfin88/morse-convert",
+  "version": "1.0.1",
+  "description": "Encoding, decoding and hashing a value by morse alphabet with javascript language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litfin88/morse-convert.git"
+  },
+  "author": "litfin88",
+  "keywords": [
+    "morse",
+    "alphabet",
+    "encoding",
+    "decoding"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litfin88/morse-convert/issues"
+  },
+  "homepage": "https://github.com/litfin88/morse-convert#readme",
+  "dependencies": {
+    "sha256": "^0.2.0"
+  }
+}
